@@ -1,0 +1,36 @@
+{
+  "name": "condition-filter-loader",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.vue . && prettier --check .",
+    "lint:fix": "eslint --fix --ext .js,.ts,.vue . && prettier --write .",
+    "build": "rollup -c builds/rollup.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-angular": "^13.1.0",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.1",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.3.2",
+    "rollup": "^2.56.3",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "optionalDependencies": {
+    "loader-utils": "^2.0.0"
+  },
+  "keywords": [
+    "loader",
+    "filter",
+    "transform"
+  ]
+}
