@@ -1,6 +1,6 @@
 {
   "name": "condition-filter-loader",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -31,6 +31,14 @@
   "optionalDependencies": {
     "loader-utils": "^2.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a572251465/condition-filter-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/a572251465/condition-filter-loader/issues"
+  },
+  "homepage": "https://github.com/a572251465/condition-filter-loader",
   "keywords": [
     "loader",
     "filter",
