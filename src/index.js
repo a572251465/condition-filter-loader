@@ -20,7 +20,7 @@ function loopHandle(checkArr, value) {
   for (; i < checkArr.length; i += 1) {
     const item = checkArr[i]
     const inputVal = /\s+[a-zA-Z]+/gi
-      .exec(Object.prototype.toString.call(item).toLowerCase())[1]
+      .exec(Object.prototype.toString.call(item).toLowerCase())[0]
       .trim()
     flag =
       typeof checkPolicy[inputVal] === 'function'
